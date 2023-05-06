@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <div style="margin: 40px;" class="container">
+        <form onsubmit="login(event)" style="padding: 50px;" class="card" action="" method="POST">
+            <h3 style="text-align: center;">login</h3>
+            <nav class="nav">
+                <a class="nav-link active" href="./signup.html"> Sign Up</a>
+            </nav <label>Enter Email Id:-</label>
+            <input type="text" id="Email">
+            <label>Enter Password:-</label>
+            <input type="password" id="Password">
+            <button class="btn btn-primary" style="margin-top: 10px;" type="submit">login</button>
+        </form>
+        <a href="./forgotPassword.html"><button>forget password</button></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

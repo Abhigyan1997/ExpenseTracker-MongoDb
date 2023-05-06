@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Signup</title>
+</head>
+<body>
+    <div style="padding-top: 50px;" class="container">
+
+        <form style="padding: 50px;" id="form" class="card" onsubmit="signup(event)" >
+            <h3 style="text-align: center;">signup page</h3>
+            <nav class="nav">
+                <a class="nav-link active" href="./login.html">existing User login</a>
+              </nav
+        <label>Name:-</label>
+        <input type="text" id="Name" placeholder="Enter Name" required>
+        <label for="number">Enter Phone no.</label>
+        <input type="text" id="Number" placeholder="123456789" required>
+        <label>Email Id:-</label>
+        <input type="text" id="Email" placeholder="abc@gmail.com" required>
+        <label>Password</label>
+        <input type="password" id="Password" placeholder="password" required>
+        <button class="btn btn-success" style='margin-top: 10px;' type="submit" >submit</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="signup.js"></script>
+</div>
+</body>
+</html>
